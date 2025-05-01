@@ -1,0 +1,7 @@
+services:
+  app:
+    build:
+      context: .
+    image: pokeapi-app
+    ports:
+      - "3000:3000"
