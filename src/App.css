@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #fdf6e3; /* tono solarizado claro */
+  color: #333;
+  font-family: 'Courier New', monospace;
+}
