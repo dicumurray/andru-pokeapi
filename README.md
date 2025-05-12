@@ -16,3 +16,7 @@ Una app web en React que muestra Pokémon usando la PokeAPI.
 
 ```bash
 docker compose up --build
+
+## 🖼️ Captura de pantalla
+
+![screenshot](./screenshot.png)
