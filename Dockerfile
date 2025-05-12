@@ -1,5 +1,5 @@
 # Usamos la imagen base de Node.js
-FROM node:16
+FROM node:20
 
 # Establecemos el directorio de trabajo dentro del contenedor
 WORKDIR /app
@@ -23,4 +23,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Comando para iniciar la app
-CMD ["serve", "-s", "build", "-l", "3000"]
+CMD [ "serve", "-s", "dist", "--single" ]
